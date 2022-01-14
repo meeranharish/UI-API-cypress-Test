@@ -1,0 +1,15 @@
+{
+    "baseUrl": "https://juice-shop.herokuapp.com/#/",
+    "trashAssetsBeforeRuns": true,
+    "video": true,
+    "videosFolder": "cypress/videos",
+    "screenshotsFolder": "cypress/screenshots",
+    "videoUploadOnPasses": true,
+    "reporter": "cypress-mochawesome-reporter",
+    "reporterOptions": {
+        "reportFilename": "htmlReport",
+        "toConsole": true,
+        "charts": true,
+        "embeddedScreenshots": true
+      }
+}

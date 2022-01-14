@@ -1,0 +1,18 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "Cypress Web App Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:run": "cypress run --config-file='./cypress.json'",
+    "cy:open": "cypress open"
+  },
+  "author": "Harish",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.2.0",
+    "cypress-localstorage-commands": "^1.6.1",
+    "cypress-mochawesome-reporter": "^2.3.0"
+  }
+}
